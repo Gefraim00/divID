@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+.container .row {
+    margin: auto;
+    padding: 20px;
+    height: 400px;
+    box-sizing: border-box;
+    margin-top: 20vh;
+    color: white;
+}
+
+.container .row .daftar {
+    background-color: #292b2c;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.container .row .login {
+    background-color: #f7f7f73d;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.container .row .login form input {
+    width: 100%;
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    cursor: pointer;
+
+}
+
+footer {
+    background-color: #1D1C1A;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    border-top: 2px solid cornflowerblue;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}

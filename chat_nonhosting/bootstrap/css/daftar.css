@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url('../img/bg2.jpg') center no-repeat;
+}
+
+.form {
+    width: 400px;
+    height: 600px;
+    background-color: #a19e9e3a;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 80px;
+}
+
+.form form input[type="text"],
+input[type="password"] {
+    width: 100%;
+    outline: none;
+    border: none;
+    background: none;
+    border-bottom: 1px solid white;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form form input[placeholder] {
+    color: white;
+    font-family: 'Calibri', sans-serif;
+}
+
+.form h2 {
+    margin-bottom: 40px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Squada One', cursive;
+}
+
+.form #gambar {
+    margin-top: 20px;
+}
+
+.form #gambar img {
+    border: 2px solid cornflowerblue;
+    border-radius: 50%;
+}
+
+footer {
+    background-color: #1D1C1A;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    border-top: 2px solid cornflowerblue;
+    position: absolute;
+    left: 0;
+    right: 0;
+}

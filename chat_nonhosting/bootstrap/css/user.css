@@ -1,0 +1,202 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+/* navbar */
+
+.navbar .navbar-nav .nav-link {
+    font-family: 'Squada One', cursive;
+    font-size: 18px;
+}
+
+/* jumbotron */
+.jumbotron {
+    height: 550px;
+    background-image: url(../img/bg2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: -95px;
+}
+
+.jumbotron .jumboDesc {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.jumbotron .jumboDesc h1 {
+    color: white;
+    font-size: 3.2em;
+    font-family: 'Squada One', cursive;
+    margin-top: 80px;
+}
+
+.jumbotron .jumboDesc span {
+    color: cornflowerblue;
+}
+
+.jumbotron input {
+    width: 50%;
+    height: 35px;
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Squada One', cursive;
+    border-radius: 20px;
+    outline: none;
+}
+
+/* displayForm */
+.content .rowContent {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -32px;
+}
+
+.content .rowContent .displayForm {
+    width: 70%;
+    height: 100vh;
+    background: url(../img/DisplayForm.jpg);
+    background-size: cover;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow-y: scroll;
+}
+
+.content .rowContent .displayForm .isi {
+    background-color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.4);
+}
+
+.content .rowContent .communityMembers {
+    width: 30%;
+    background-color: #1D1C1A;
+    padding: 10px;
+    box-sizing: border-box;
+    color: white;
+    overflow-y: auto;
+}
+
+.content .rowContent h3 {
+    font-family: 'Squada One', cursive;
+}
+
+.content .rowContent .displayForm hr {
+    width: 40%;
+    border: 1px solid black;
+}
+
+.content .rowContent .communityMembers hr {
+    width: 40%;
+    border: 1px solid white;
+}
+
+.content .rowContent .displayForm .isi table tr td .profile_user {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    border: 2px solid cornflowerblue;
+}
+
+.content .rowContent .displayForm table tr td h4 {
+    font-family: 'Titillium Web', sans-serif;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    color: black;
+}
+
+.user .userContainer {
+    width: 100%;
+    background: url(../img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    box-sizing: border-box;
+    background-attachment: fixed;
+    border-top: 2px solid cornflowerblue;
+}
+
+.user .userContainer .container {
+    width: 630px;
+    background-color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+
+.user .userContainer textarea {
+    border-radius: 20px;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.buttonPost {
+    position: fixed;
+    top: 50vh;
+    right: 0;
+}
+
+/* komentar */
+.content .rowContent .displayForm .isi .post .comment #users {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    border: 2px solid cornflowerblue;
+    margin-top: -15px;
+}
+
+/* isi komen */
+.content .rowContent .displayForm .container .isi .comment .isi_komen {
+    font-size: 14px;
+}
+
+.content .rowContent .displayForm .container .isi .comment .isi_komen table tr td img {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+
+/* communityMembers */
+.content .rowContent .communityMembers table tr td img {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 5px;
+}
+
+.content .rowContent .communityMembers table tr td span {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+footer {
+    background-color: #1D1C1A;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    border-top: 2px solid cornflowerblue;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
